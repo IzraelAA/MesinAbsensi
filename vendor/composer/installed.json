@@ -1,0 +1,90 @@
+[
+    {
+        "name": "metalback/tad-php",
+        "version": "0.4.2",
+        "version_normalized": "0.4.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/metalback/tad-php.git",
+            "reference": "f7108b76e0583131c716e8614a31f63999876229"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/metalback/tad-php/zipball/f7108b76e0583131c716e8614a31f63999876229",
+            "reference": "f7108b76e0583131c716e8614a31f63999876229",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0"
+        },
+        "time": "2015-01-17T17:37:53+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "TADPHP\\": "lib/",
+                "TADPHP\\Exceptions\\": "lib/Exceptions/",
+                "TADPHP\\Providers\\": "lib/Providers/",
+                "Test\\Helpers\\": "test/helpers/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jorge Cobis",
+                "email": "jcobis@gmail.com"
+            }
+        ],
+        "description": "PHP class that allows you interact with ZK Time & Attendance devices.",
+        "keywords": [
+            "ZK",
+            "attendance",
+            "tad",
+            "time"
+        ]
+    },
+    {
+        "name": "wnasich/php_zklib",
+        "version": "1.3",
+        "version_normalized": "1.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wnasich/php_zklib.git",
+            "reference": "91151a43f7f74b5a3de66a0e60adf1809565d6dd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/wnasich/php_zklib/zipball/91151a43f7f74b5a3de66a0e60adf1809565d6dd",
+            "reference": "91151a43f7f74b5a3de66a0e60adf1809565d6dd",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "time": "2017-07-07T01:39:51+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "ZKLib\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "PHP library for communication with ZKTeco Attendance Machine",
+        "homepage": "http://github.com/wnasich/php_zklib",
+        "keywords": [
+            "SBTS H0201",
+            "time-attendance",
+            "zkteco"
+        ]
+    }
+]

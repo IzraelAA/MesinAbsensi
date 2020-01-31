@@ -1,0 +1,6 @@
+{
+    "require": {
+        "metalback/tad-php": "^0.4.2",
+        "wnasich/php_zklib": "^1.3"
+    }
+}
